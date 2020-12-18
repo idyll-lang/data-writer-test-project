@@ -1,0 +1,16 @@
+.d3-component svg {
+  background: #ddd;
+  max-height: 300px;
+}
+
+
+input[type="radio"] {
+  margin-left: 1em;
+  margin-right: 0.25em;
+}
+
+@media all and (max-width: 1000px) {
+  .d3-component svg {
+    max-height: 200px;
+  }
+}
